@@ -24,7 +24,7 @@ pipeline:
                   spec:
                     containers:
                       - name: customer-services
-                        image: \${NEXUS_DOCKER_REPO}/Poojaimages:1.0.1
+                        image: \${NEXUS_DOCKER_REPO}/Poojaimages:1.0.4
                         ports:
                           - containerPort: 9097
               """
